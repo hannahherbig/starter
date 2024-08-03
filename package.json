@@ -1,0 +1,39 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "graphql-codegen --config codegen.ts",
+    "watch": "graphql-codegen --watch",
+    "start": "ts-node src/index.ts",
+    "skill": "ts-node src/skill.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/client": "^3.11.2",
+    "@graphql-codegen/cli": "5.0.2",
+    "@graphql-codegen/client-preset": "4.3.3",
+    "@graphql-codegen/introspection": "4.0.3",
+    "@graphql-codegen/typescript": "4.0.9",
+    "@graphql-codegen/typescript-document-nodes": "4.0.9",
+    "@graphql-codegen/typescript-mongodb": "3.0.0",
+    "@graphql-codegen/typescript-resolvers": "4.2.1",
+    "@parcel/watcher": "^2.4.1",
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^22.1.0",
+    "graphql": "^16.9.0",
+    "lodash": "^4.17.21",
+    "openskill": "^4.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
